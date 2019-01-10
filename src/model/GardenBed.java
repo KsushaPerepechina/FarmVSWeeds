@@ -10,10 +10,6 @@ public class GardenBed{
 
     public GardenBed(){
         emptiness = true;
-        readiness = false;
-        beetleAttack = false;
-        weedAttack = false;
-        lackOfMoisture = false;
         nameOfPlant = "";
     }
 
@@ -49,11 +45,11 @@ public class GardenBed{
         this.readiness = readiness;
     }
 
-    public void setBeetleAttack(boolean beetleAttack) {
+    public void setBeetleAttacked(boolean beetleAttack) {
         this.beetleAttack = beetleAttack;
     }
 
-    public void setWeedAttack(boolean weedAttack) {
+    public void setWeedAttacked(boolean weedAttack) {
         this.weedAttack = weedAttack;
     }
 

@@ -12,10 +12,10 @@ public class HelpFrame extends JFrame{
         setLocationRelativeTo(null);
         setLayout(new GridLayout(6,2,5,5));
         getContentPane().setBackground(new Color(230,255,230));
-        addButtons();
+        addIcons();
     }
 
-    public void addButtons(){
+    public void addIcons(){
         JButton designations = new JButton();
         addButton(designations, "images/designations.png");
 

@@ -14,10 +14,10 @@ public class MenuFrame extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         setLayout(null);
-        addButtons();
+        addIcons();
     }
 
-    private void addButtons() {
+    private void addIcons() {
         JButton helpButton = new JButton();
         addButton(helpButton, "images/help.png", 20,20,50,50);
         helpButton.addActionListener(new ActionListener() {

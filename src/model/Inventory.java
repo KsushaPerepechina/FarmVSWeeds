@@ -1,11 +1,7 @@
 package model;
 
-public class Inventory {
+public class Inventory{
     private boolean exploitation;
-
-    public Inventory(){f
-        exploitation = false;
-    }
 
     public boolean getExploitation(){
         return exploitation;
